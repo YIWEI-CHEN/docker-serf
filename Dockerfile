@@ -8,7 +8,7 @@
 # The docker images was directly taken from sequenceiq and converetd to ubuntu image
 # because I wanted to create the cluster on ubuntu.
 
-FROM ubuntu:saucy
+FROM ubuntu:14.04
 MAINTAINER Alvin Henrick
 
 RUN apt-get update
