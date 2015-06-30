@@ -9,7 +9,7 @@
 # because I wanted to create the cluster on ubuntu.
 
 FROM ubuntu:14.04
-MAINTAINER Alvin Henrick
+MAINTAINER YIWEI CHEN <feberium@gmail.com>
 
 RUN apt-get update
 RUN apt-get install -y dnsmasq unzip curl
